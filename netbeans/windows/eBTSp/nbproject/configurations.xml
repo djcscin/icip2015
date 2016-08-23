@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Arquivos de Cabeçalho"
+                   projectFiles="true">
+      <itemPath>../../../include/global.h</itemPath>
+      <itemPath>../../../include/provisional/ebts.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Arquivos de Código-Fonte"
+                   projectFiles="true">
+      <itemPath>../../../src/arquivo.c</itemPath>
+      <itemPath>../../../src/provisional/ebtsp.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Arquivos de Teste"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos Importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="ReleaseO2" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>0</developmentMode>
+          <incDir>
+            <pElem>../../../include</pElem>
+            <pElem>../../../include/union_find</pElem>
+            <pElem>../../../include/provisional</pElem>
+          </incDir>
+          <commandLine>-O2 -Winline -fomit-frame-pointer</commandLine>
+          <useLinkerLibraries>false</useLinkerLibraries>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>../../../exe/${CND_PLATFORM}-${CND_CONF}/eBTSp</output>
+        </linkerTool>
+      </compileType>
+      <item path="../../../include/global.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../include/provisional/ebts.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/arquivo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../src/provisional/ebtsp.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="ReleaseO3" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>0</developmentMode>
+          <incDir>
+            <pElem>../../../include</pElem>
+            <pElem>../../../include/union_find</pElem>
+            <pElem>../../../include/provisional</pElem>
+          </incDir>
+          <commandLine>-O3 -Winline -fomit-frame-pointer</commandLine>
+          <useLinkerLibraries>false</useLinkerLibraries>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>../../../exe/${CND_PLATFORM}-${CND_CONF}/eBTSp</output>
+        </linkerTool>
+      </compileType>
+      <item path="../../../include/global.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../include/provisional/ebts.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/arquivo.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="../../../src/provisional/ebtsp.c" ex="false" tool="0" flavor2="9">
+      </item>
+    </conf>
+    <conf name="ReleaseO1" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>0</developmentMode>
+          <incDir>
+            <pElem>../../../include</pElem>
+            <pElem>../../../include/union_find</pElem>
+            <pElem>../../../include/provisional</pElem>
+          </incDir>
+          <commandLine>-O1 -Winline -fomit-frame-pointer</commandLine>
+          <useLinkerLibraries>false</useLinkerLibraries>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>../../../exe/${CND_PLATFORM}-${CND_CONF}/eBTSp</output>
+        </linkerTool>
+      </compileType>
+      <item path="../../../include/global.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../include/provisional/ebts.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/arquivo.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="../../../src/provisional/ebtsp.c" ex="false" tool="0" flavor2="9">
+      </item>
+    </conf>
+    <conf name="ReleaseOs" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>0</developmentMode>
+          <incDir>
+            <pElem>../../../include</pElem>
+            <pElem>../../../include/union_find</pElem>
+            <pElem>../../../include/provisional</pElem>
+          </incDir>
+          <commandLine>-Os -Winline -fomit-frame-pointer</commandLine>
+          <useLinkerLibraries>false</useLinkerLibraries>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>../../../exe/${CND_PLATFORM}-${CND_CONF}/eBTSp</output>
+        </linkerTool>
+      </compileType>
+      <item path="../../../include/global.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../include/provisional/ebts.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/arquivo.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="../../../src/provisional/ebtsp.c" ex="false" tool="0" flavor2="9">
+      </item>
+    </conf>
+    <conf name="ReleaseOfast" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>0</developmentMode>
+          <incDir>
+            <pElem>../../../include</pElem>
+            <pElem>../../../include/union_find</pElem>
+            <pElem>../../../include/provisional</pElem>
+          </incDir>
+          <commandLine>-Ofast -Winline -fomit-frame-pointer</commandLine>
+          <useLinkerLibraries>false</useLinkerLibraries>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>../../../exe/${CND_PLATFORM}-${CND_CONF}/eBTSp</output>
+        </linkerTool>
+      </compileType>
+      <item path="../../../include/global.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../include/provisional/ebts.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/arquivo.c" ex="false" tool="0" flavor2="9">
+      </item>
+      <item path="../../../src/provisional/ebtsp.c" ex="false" tool="0" flavor2="9">
+      </item>
+    </conf>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>../../../include</pElem>
+            <pElem>../../../include/union_find</pElem>
+            <pElem>../../../include/provisional</pElem>
+          </incDir>
+          <useLinkerLibraries>false</useLinkerLibraries>
+        </cTool>
+        <linkerTool>
+          <output>../../../exe/${CND_PLATFORM}-${CND_CONF}/eBTSp</output>
+        </linkerTool>
+      </compileType>
+      <item path="../../../include/global.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../include/provisional/ebts.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../../../src/arquivo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../../../src/provisional/ebtsp.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

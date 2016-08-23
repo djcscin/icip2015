@@ -1,0 +1,13 @@
+/build/
+/exe/
+.dep.inc
+*.obj
+*.lastbuildstate
+*.tlog
+*.log
+*.pdb
+*.opendb
+*.sdf
+*.suo
+build/
+private/
