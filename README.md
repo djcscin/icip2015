@@ -44,3 +44,8 @@ The code implements the following algorithms:
 Compilation:
 
 	Netbeans and Visual Studio projects are included in the repository.
+
+Warning:
+
+	All the pixels on the border of the image are considered as background. Two pixels must be added on the 
+	border instead of one.
