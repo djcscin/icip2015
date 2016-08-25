@@ -27,18 +27,3 @@ int main(int argc, char *argv[]) {
     printf("%.6lf ", totaltime);
     return 0;
 }
-/*
-int main(int argc, char *argv[]) {
-    int i, j;
-    char in[] = "../../images/artificial/image8192_0.40.pbm";
-
-    for (j = 0; j < 50; ++j) {
-        read_image(in);
-        INIT_IMAGEOUT
-        FUNCTION();
-        FREE_IMAGE
-    }
-
-    return 0;
-}
-*/
